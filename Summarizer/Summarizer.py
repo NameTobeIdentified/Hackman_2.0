@@ -1,7 +1,3 @@
-"""
-A very simple Text summarizier built using NLP in Python
-https://github.com/jodylecompte/Simple-Summarizer
-"""
 import argparse
 
 from nltk.tokenize import sent_tokenize, word_tokenize
@@ -38,7 +34,7 @@ def read_file(path):
         with open(path, 'r') as file:
             return file.read()
 
-    except IOError as e:
+    except IOError:
         print("Fatal Error: File ({}) could not be locaeted or is not readable.".format(path))
 
 def sanitize_input(data):
