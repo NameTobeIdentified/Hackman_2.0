@@ -1,7 +1,5 @@
 """
-Simple-Summarizer
-A very simple summarizier built using NLP in Python
-https://jodylecompte.com
+A very simple Text summarizier built using NLP in Python
 https://github.com/jodylecompte/Simple-Summarizer
 """
 import argparse
